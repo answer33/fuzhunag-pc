@@ -1,0 +1,31 @@
+.submenu {
+  position: fixed;
+  left: 200px;
+  top: 0;
+  width: 140px;
+  min-height: 100vh;
+  background-color: #fff;
+  z-index: 999;
+  .name {
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #eef1f2;
+  }
+  ul {
+    margin-top: 20px;
+    li {
+      text-align: center;
+      line-height: 40px;
+      color: #666;
+      margin: 0 10px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    .active {
+      background-color: #f4f7f7;
+      border-radius: 4px;
+    }
+  }
+}

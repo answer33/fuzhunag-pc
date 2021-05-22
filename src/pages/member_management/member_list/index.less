@@ -1,0 +1,54 @@
+.member-list {
+  width: 100%;
+  margin: 28px;
+  .filter {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 0;
+  }
+}
+
+.table {
+  margin-top: 18px;
+  background-color: #fff;
+  padding: 22px 27px;
+  :global {
+    .ant-table {
+      color: #686868;
+    }
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    p {
+      margin-left: 22px;
+    }
+  }
+  .member-info {
+    display: flex;
+    align-items: center;
+    img {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 10px;
+    }
+  }
+  .action {
+    display: flex;
+    align-items: center;
+    span {
+      width: 2px;
+      height: 15px;
+      border: 1px solid #ffcbb4;
+      margin: 0 10px;
+    }
+    p {
+      cursor: pointer;
+      color: #ff8149;
+    }
+  }
+}

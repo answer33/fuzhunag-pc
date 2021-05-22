@@ -1,0 +1,33 @@
+.payment {
+  width: 100%;
+  background-color: #fff;
+  margin: 28px;
+  padding: 23px;
+  .list {
+    display: flex;
+    border-right: 1px solid #ccc;
+    margin-top: 20px;
+    .item {
+      display: flex;
+      align-items: center;
+      flex: 2;
+      height: 80px;
+      border: 1px solid #ccc;
+      border-right-width: 0;
+      padding-left: 28px;
+      img {
+        margin-left: 30px;
+        margin-right: 20px;
+      }
+      div {
+        p:last-child {
+          font-size: 12px;
+          color: #bbbbbb;
+        }
+      }
+      &:last-child {
+        flex: 3;
+      }
+    }
+  }
+}

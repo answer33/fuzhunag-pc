@@ -1,0 +1,75 @@
+.member-detail {
+  width: 100%;
+  margin: 28px;
+  .user-info {
+    display: flex;
+    align-items: center;
+    height: 95px;
+    padding-left: 30px;
+    background-color: #feeee6;
+    img {
+      width: 53px;
+      height: 53px;
+      border-radius: 50%;
+      margin-right: 26px;
+    }
+    > div {
+      p:first-child {
+        font-size: 26px;
+        color: #000;
+        line-height: 37px;
+      }
+      p:last-child {
+        font-size: 12px;
+        color: #686868;
+      }
+    }
+  }
+  .info {
+    padding: 18px 30px;
+    background-color: #fff;
+    margin-top: 10px;
+    .account {
+      span {
+        color: #9b9b9b;
+      }
+      .label {
+        padding: 2px 6px;
+        font-size: 12px;
+        color: #fff;
+        background-color: #ff9549;
+        border-radius: 12px;
+        margin-left: 7px;
+      }
+    }
+    .consume {
+      margin-top: 44px;
+      .title {
+        display: flex;
+        align-items: center;
+        color: #000;
+        margin-bottom: 13px;
+        span {
+          display: inline-block;
+          width: 2px;
+          height: 14px;
+          background: #ff9549;
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+  .table {
+    padding: 18px 30px;
+    background-color: #fff;
+    margin-top: 10px;
+    :global {
+      .ant-table {
+        color: #686868;
+      }
+    }
+    form {
+      margin-bottom: 28px;
+    }
+  }
+}

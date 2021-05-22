@@ -1,0 +1,35 @@
+.member {
+  width: 100%;
+  margin: 28px;
+  background-color: #fff;
+  .filter {
+    width: 100%;
+    background-color: #fff;
+    padding: 26px;
+    padding-bottom: 0;
+  }
+  .table {
+    background-color: #fff;
+    padding: 0px 26px;
+    :global {
+      .ant-table {
+        color: #686868;
+      }
+    }
+    .action {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        width: 2px;
+        height: 15px;
+        border: 1px solid #ffcbb4;
+        margin: 0 10px;
+      }
+      p {
+        cursor: pointer;
+        color: #ff8149;
+      }
+    }
+  }
+}

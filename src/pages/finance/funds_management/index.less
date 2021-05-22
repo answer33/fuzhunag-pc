@@ -1,0 +1,50 @@
+.funds-management {
+  width: 100%;
+  margin: 28px;
+  background-color: #fff;
+  .filter {
+    width: 100%;
+    padding: 22px;
+    padding-left: 6px;
+    padding-bottom: 0;
+  }
+  .info {
+    margin: 0 22px;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    background: #f7f8fa;
+    .item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .top {
+        display: flex;
+        align-items: center;
+        p {
+          margin-left: 10px;
+          span {
+            color: #999;
+            font-size: 12px;
+          }
+        }
+      }
+      .price {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-top: 10px;
+      }
+    }
+  }
+  .table {
+    padding: 22px;
+    margin-top: 15px;
+    :global {
+      .ant-table {
+        color: #686868;
+      }
+    }
+  }
+}
